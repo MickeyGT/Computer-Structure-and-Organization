@@ -1,0 +1,6 @@
+# begin LFP file C:\Users\user\Desktop\asdf\sum1g\asdasfasfdas.lfp
+designfile main.v
+parttype xc3s400-4-ft256
+bus_delimiter 0;
+set_busdelim_onsave 1;
+INST "main" COLOR=15  ;
