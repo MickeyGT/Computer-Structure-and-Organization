@@ -1,9 +1,0 @@
-xst -ise "D:/sumator/sumator.ise" -intstyle ise -ifn sumator.xst -ofn sumator.syr
-xst -ise "D:/sumator/sumator.ise" -intstyle ise -ifn sumator.xst -ofn sumator.syr
-xst -ise "D:/sumator/sumator.ise" -intstyle ise -ifn sumator.xst -ofn sumator.syr
-xst -ise "D:/sumator/sumator.ise" -intstyle ise -ifn sumator.xst -ofn sumator.syr
-xst -ise "D:/sumator/sumator.ise" -intstyle ise -ifn sumator.xst -ofn sumator.syr
-ngdbuild -ise "D:/sumator/sumator.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "sumator.ngc" sumator.ngd
-map -ise "D:/sumator/sumator.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sumator_map.ncd sumator.ngd sumator.pcf
-par -ise "D:/sumator/sumator.ise" -w -intstyle ise -ol std -t 1 sumator_map.ncd sumator.ncd sumator.pcf
-trce -ise "D:/sumator/sumator.ise" -intstyle ise -e 3 -s 4 -xml sumator sumator.ncd -o sumator.twr sumator.pcf
