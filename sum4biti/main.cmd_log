@@ -1,0 +1,1 @@
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/user/Desktop/asdf/sum4biti/main.sch" main.vf

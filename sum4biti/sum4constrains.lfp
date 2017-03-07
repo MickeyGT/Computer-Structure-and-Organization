@@ -1,0 +1,21 @@
+# begin LFP file C:\Users\user\Desktop\asdf\sum4biti\sum4constrains.lfp
+designfile sum4main.v
+parttype xc3s400-4-ft256
+bus_delimiter 0;
+set_busdelim_onsave 1;
+IO_GROUP "a" IO_GROUP="sum4main" ;
+IO_GROUP "b" IO_GROUP="sum4main" ;
+IO_GROUP "r" IO_GROUP="sum4main" ;
+INST "sum4main" COLOR=15  ;
+NET "a<3>" IO_GROUP="a"  ;
+NET "a<2>" IO_GROUP="a"  ;
+NET "a<1>" IO_GROUP="a"  ;
+NET "a<0>" IO_GROUP="a"  ;
+NET "b<3>" IO_GROUP="b"  ;
+NET "b<2>" IO_GROUP="b"  ;
+NET "b<1>" IO_GROUP="b"  ;
+NET "b<0>" IO_GROUP="b"  ;
+NET "r<3>" IO_GROUP="r"  ;
+NET "r<2>" IO_GROUP="r"  ;
+NET "r<1>" IO_GROUP="r"  ;
+NET "r<0>" IO_GROUP="r"  ;

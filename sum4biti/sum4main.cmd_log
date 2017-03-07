@@ -1,0 +1,26 @@
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/user/Desktop/asdf/sum4biti/sum4main.sch" sum4main.vf
+xst -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -ifn sum4main.xst -ofn sum4main.syr
+ngdbuild -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-ft256-4 "sum4main.ngc" sum4main.ngd
+map -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum4main_map.ncd sum4main.ngd sum4main.pcf
+par -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -w -intstyle ise -ol std -t 1 sum4main_map.ncd sum4main.ncd sum4main.pcf
+trce -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -e 3 -s 4 -xml sum4main sum4main.ncd -o sum4main.twr sum4main.pcf
+ngdbuild -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4constrains.ucf" -p xc3s400-ft256-4 "sum4main.ngc" sum4main.ngd
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/user/Desktop/asdf/sum4biti/sum4main.sch" sum4main.vf
+xst -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -ifn sum4main.xst -ofn sum4main.syr
+ngdbuild -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4constrains.ucf" -p xc3s400-ft256-4 "sum4main.ngc" sum4main.ngd
+map -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum4main_map.ncd sum4main.ngd sum4main.pcf
+par -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -w -intstyle ise -ol std -t 1 sum4main_map.ncd sum4main.ncd sum4main.pcf
+trce -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -e 3 -s 4 -xml sum4main sum4main.ncd -o sum4main.twr sum4main.pcf -ucf sum4constrains.ucf
+ngdbuild -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4constrains.ucf" -p xc3s400-ft256-4 "sum4main.ngc" sum4main.ngd
+map -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum4main_map.ncd sum4main.ngd sum4main.pcf
+par -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -w -intstyle ise -ol std -t 1 sum4main_map.ncd sum4main.ncd sum4main.pcf
+trce -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -e 3 -s 4 -xml sum4main sum4main.ncd -o sum4main.twr sum4main.pcf -ucf sum4constrains.ucf
+bitgen -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -f sum4main.ut sum4main.ncd
+bitgen -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -f sum4main.ut sum4main.ncd
+sch2verilog -intstyle ise -family spartan3   -w "C:/Users/user/Desktop/asdf/sum4biti/sum4main.sch" sum4main.vf
+xst -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -ifn sum4main.xst -ofn sum4main.syr
+ngdbuild -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -dd _ngo -nt timestamp -uc "sum4constrains.ucf" -p xc3s400-ft256-4 "sum4main.ngc" sum4main.ngd
+map -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -p xc3s400-ft256-4 -cm area -pr b -k 4 -c 100 -o sum4main_map.ncd sum4main.ngd sum4main.pcf
+par -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -w -intstyle ise -ol std -t 1 sum4main_map.ncd sum4main.ncd sum4main.pcf
+trce -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -e 3 -s 4 -xml sum4main sum4main.ncd -o sum4main.twr sum4main.pcf -ucf sum4constrains.ucf
+bitgen -ise "C:/Users/user/Desktop/asdf/sum4biti/sum4biti.ise" -intstyle ise -f sum4main.ut sum4main.ncd
