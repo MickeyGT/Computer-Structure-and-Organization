@@ -1,0 +1,41 @@
+V3 31
+FL D:/asdf/scazatorVHDL/source/as4v.vhf 2017/03/21.10:35:11 J.40
+EN work/as4v 1490086712 FL D:/asdf/scazatorVHDL/source/as4v.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/as4v/BEHAVIORAL 1490086713 \
+      FL D:/asdf/scazatorVHDL/source/as4v.vhf EN work/as4v 1490086712 \
+      CP VHDLSource
+FL D:/asdf/scazatorVHDL/source/main.vhf 2017/03/21.10:29:57 J.40
+EN work/main 1490084999 FL D:/asdf/scazatorVHDL/source/main.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/main/BEHAVIORAL 1490085000 \
+      FL D:/asdf/scazatorVHDL/source/main.vhf EN work/main 1490084999 CP XOR3 \
+      CP AND2 CP OR3
+FL D:/asdf/scazatorVHDL/source/scazator4biti.vhf 2017/03/21.10:29:54 J.40
+EN work/M2_1_MXILINX_scazator4biti 1490085003 \
+      FL D:/asdf/scazatorVHDL/source/scazator4biti.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/M2_1_MXILINX_scazator4biti/BEHAVIORAL 1490085004 \
+      FL D:/asdf/scazatorVHDL/source/scazator4biti.vhf \
+      EN work/M2_1_MXILINX_scazator4biti 1490085003 CP AND2B1 CP OR2 CP AND2
+EN work/scazator4biti 1490085005 \
+      FL D:/asdf/scazatorVHDL/source/scazator4biti.vhf PB ieee/std_logic_1164 1192821031 \
+      PH ieee/NUMERIC_STD 1192821033 LB UNISIM PH unisim/VCOMPONENTS 1194566982
+AR work/scazator4biti/BEHAVIORAL 1490085006 \
+      FL D:/asdf/scazatorVHDL/source/scazator4biti.vhf EN work/scazator4biti 1490085005 \
+      CP INV CP M2_1_MXILINX_scazator4biti CP sum4main CP XNOR2 CP AND3 CP XOR2 CP OR2
+FL D:/asdf/scazatorVHDL/source/sum4main.vhf 2017/03/21.10:29:55 J.40
+EN work/sum4main 1490085001 FL D:/asdf/scazatorVHDL/source/sum4main.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/sum4main/BEHAVIORAL 1490085002 \
+      FL D:/asdf/scazatorVHDL/source/sum4main.vhf EN work/sum4main 1490085001 \
+      CP main
+FL D:/asdf/scazatorVHDL/source/VHDLSource.vhd 2017/03/21.10:58:23 J.40
+EN work/VHDLSource 1490086710 FL D:/asdf/scazatorVHDL/source/VHDLSource.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/VHDLSource/Behavioral 1490086711 \
+      FL D:/asdf/scazatorVHDL/source/VHDLSource.vhd EN work/VHDLSource 1490086710

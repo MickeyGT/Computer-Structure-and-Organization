@@ -1,0 +1,1 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/asdf/scazator4biti/sum4main.sch" sum4main.vhf

@@ -1,0 +1,12 @@
+EN scazator4biti NULL D:/asdf/scazatorVHDL/source/scazator4biti.vhf sub00/vhpl08 1490085005
+EN sum4main NULL D:/asdf/scazatorVHDL/source/sum4main.vhf sub00/vhpl04 1490085001
+AR scazator4biti behavioral D:/asdf/scazatorVHDL/source/scazator4biti.vhf sub00/vhpl09 1490085006
+EN m2_1_mxilinx_scazator4biti NULL D:/asdf/scazatorVHDL/source/scazator4biti.vhf sub00/vhpl06 1490085003
+AR vhdlsource behavioral D:/asdf/scazatorVHDL/source/VHDLSource.vhd sub00/vhpl01 1490086711
+AR main behavioral D:/asdf/scazatorVHDL/source/main.vhf sub00/vhpl03 1490085000
+AR m2_1_mxilinx_scazator4biti behavioral D:/asdf/scazatorVHDL/source/scazator4biti.vhf sub00/vhpl07 1490085004
+EN main NULL D:/asdf/scazatorVHDL/source/main.vhf sub00/vhpl02 1490084999
+EN as4v NULL D:/asdf/scazatorVHDL/source/as4v.vhf sub00/vhpl10 1490086712
+AR sum4main behavioral D:/asdf/scazatorVHDL/source/sum4main.vhf sub00/vhpl05 1490085002
+AR as4v behavioral D:/asdf/scazatorVHDL/source/as4v.vhf sub00/vhpl11 1490086713
+EN vhdlsource NULL D:/asdf/scazatorVHDL/source/VHDLSource.vhd sub00/vhpl00 1490086710
