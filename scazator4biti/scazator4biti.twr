@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 9.2.04i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise D:/asdf/scazator4biti/scazator4biti.ise
+-intstyle ise -e 3 -s 4 -xml scazator4biti scazator4biti.ncd -o
+scazator4biti.twr scazator4biti.pcf
+
+Design file:              scazator4biti.ncd
+Physical constraint file: scazator4biti.pcf
+Device,package,speed:     xc3s400,ft256,-4 (PRODUCTION 1.39 2007-10-19)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+S1A0           |Cout           |   12.083|
+S1A0           |Overflow       |   11.606|
+S1A0           |R<1>           |    9.433|
+S1A0           |R<2>           |   10.721|
+S1A0           |R<3>           |   11.594|
+a<0>           |Cout           |   15.907|
+a<0>           |Overflow       |   15.430|
+a<0>           |R<0>           |    7.853|
+a<0>           |R<1>           |   13.257|
+a<0>           |R<2>           |   14.545|
+a<0>           |R<3>           |   15.418|
+a<1>           |Cout           |   10.583|
+a<1>           |Overflow       |   10.106|
+a<1>           |R<1>           |    7.939|
+a<1>           |R<2>           |    9.221|
+a<1>           |R<3>           |   10.094|
+a<2>           |Cout           |    9.360|
+a<2>           |Overflow       |    8.883|
+a<2>           |R<2>           |    7.998|
+a<2>           |R<3>           |    8.871|
+a<3>           |Cout           |    8.519|
+a<3>           |Overflow       |    8.002|
+a<3>           |R<3>           |    7.990|
+b<0>           |Cout           |   15.905|
+b<0>           |Overflow       |   15.428|
+b<0>           |R<0>           |    7.883|
+b<0>           |R<1>           |   13.255|
+b<0>           |R<2>           |   14.543|
+b<0>           |R<3>           |   15.416|
+b<1>           |Cout           |   10.267|
+b<1>           |Overflow       |    9.790|
+b<1>           |R<1>           |    7.693|
+b<1>           |R<2>           |    8.905|
+b<1>           |R<3>           |    9.778|
+b<2>           |Cout           |    9.470|
+b<2>           |Overflow       |    8.993|
+b<2>           |R<2>           |    8.108|
+b<2>           |R<3>           |    8.981|
+b<3>           |Cout           |    8.294|
+b<3>           |Overflow       |    7.636|
+b<3>           |R<3>           |    7.624|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 14 11:36:56 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 120 MB
+
+
+

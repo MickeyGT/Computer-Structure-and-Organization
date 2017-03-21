@@ -1,0 +1,29 @@
+Release 9.2.04i ngdbuild J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise
+D:/asdf/scazator4biti/scazator4biti.ise -intstyle ise -dd _ngo -nt timestamp -i
+-p xc3s400-ft256-4 scazator4biti.ngc scazator4biti.ngd
+
+Reading NGO file "D:/asdf/scazator4biti/scazator4biti.ngc" ...
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 124668 kilobytes
+
+Writing NGD file "scazator4biti.ngd" ...
+
+Writing NGDBUILD log file "scazator4biti.bld"...

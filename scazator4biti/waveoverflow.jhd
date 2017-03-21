@@ -1,0 +1,3 @@
+MODULE waveoverflow
+SUBMODULE scazator4biti
+INSTANCE UUT
