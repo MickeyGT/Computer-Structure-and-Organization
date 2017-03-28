@@ -1,0 +1,10 @@
+AR rom_32x32 behavioral D:/asdf/mips/ROM_32x32.vhd sub00/vhpl07 1490689467
+EN rom_32x32 NULL D:/asdf/mips/ROM_32x32.vhd sub00/vhpl06 1490689466
+EN mux2v5 NULL D:/asdf/mips/MUX2v5.vhd sub00/vhpl08 1490689468
+EN pc_update NULL D:/asdf/mips/PC_Update.vhd sub00/vhpl02 1490689462
+AR mips behavioral D:/asdf/mips/mips.vhf sub00/vhpl05 1490689578
+AR program_counter behavioral D:/asdf/mips/Program_Counter.vhd sub00/vhpl01 1490689465
+EN mips NULL D:/asdf/mips/mips.vhf sub00/vhpl04 1490689577
+AR mux2v5 behavioral D:/asdf/mips/MUX2v5.vhd sub00/vhpl09 1490689469
+AR pc_update behavioral D:/asdf/mips/PC_Update.vhd sub00/vhpl03 1490689463
+EN program_counter NULL D:/asdf/mips/Program_Counter.vhd sub00/vhpl00 1490689464

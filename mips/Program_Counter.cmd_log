@@ -1,0 +1,3 @@
+xst -ise "D:/asdf/mips/mips.ise" -intstyle ise -ifn Program_Counter.xst -ofn Program_Counter.syr
+xst -ise "D:/asdf/mips/mips.ise" -intstyle ise -ifn Program_Counter.xst -ofn Program_Counter.syr
+xst -ise "D:/asdf/mips/mips.ise" -intstyle ise -ifn Program_Counter.xst -ofn Program_Counter.syr

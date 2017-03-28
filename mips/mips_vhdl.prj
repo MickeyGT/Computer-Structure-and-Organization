@@ -1,0 +1,5 @@
+vhdl work "D:\asdf\mips\ROM_32x32.vhd"
+vhdl work "D:\asdf\mips\Program_Counter.vhd"
+vhdl work "D:\asdf\mips\PC_Update.vhd"
+vhdl work "D:\asdf\mips\MUX2v5.vhd"
+vhdl work "D:\asdf\mips\mips.vhf"
