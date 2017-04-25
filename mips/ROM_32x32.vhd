@@ -28,8 +28,9 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity ROM_32x32 is
-    Port ( Address : in  STD_LOGIC_VECTOR (4 downto 0);
-           DATA : out  STD_LOGIC_VECTOR (31 downto 0));
+    Port ( 
+		Address : in  STD_LOGIC_VECTOR (4 downto 0);
+		DATA : out  STD_LOGIC_VECTOR (31 downto 0));
 end ROM_32x32;
 
 architecture Behavioral of ROM_32x32 is

@@ -28,8 +28,10 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity PC_Update is
-    Port ( New_PC : out  STD_LOGIC_VECTOR (31 downto 0);
-			  PC : in  STD_LOGIC_VECTOR (31 downto 0));
+    Port ( 
+	 New_PC : out  STD_LOGIC_VECTOR (31 downto 0);
+	 PC : in  STD_LOGIC_VECTOR (31 downto 0));
+	 	  
 end PC_Update;
 
 architecture Behavioral of PC_Update is

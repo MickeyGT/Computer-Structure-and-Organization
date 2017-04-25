@@ -4,200 +4,228 @@ K3
 cModel Technology
 Z0 dD:\asdf\mips
 Emips
-Z1 w1490689460
-Z2 DPx6 unisim 11 vcomponents 0 22 6Bno5d?=9BlFAj[lAHJHA1
-Z3 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-Z5 8mips.vhf
-Z6 Fmips.vhf
+Z1 w1490708565
+Z2 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z3 DPx9 vital2000 16 vital_primitives 0 22 P<o@__YgakiANKimF[boN3
+Z4 DPx7 simprim 8 vpackage 0 22 62<92?H`[OPC[b77DL^6:0
+Z5 DPx9 vital2000 12 vital_timing 0 22 S^n>oJ2GS[H5aTKMo9OkE0
+Z6 DPx7 simprim 11 vcomponents 0 22 NYkjb^:l?oWklmcJQ6=181
+Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z8 8netgen/translate/mips_translate.vhd
+Z9 Fnetgen/translate/mips_translate.vhd
 l0
-L28
-V0@T;8RE0GD_jbGb[74JGB0
-Z7 OX;C;6.4b;39
+L41
+VE2l5f[@D=_ib37PX>L^@d3
+!s100 d_fL`nS6?WdO`2N`9B9Q91
+Z10 OX;C;6.4b;39
 31
-Z8 o-explicit -93 -O0
-Z9 tExplicit 1
-!s100 <dlk2cO^4E]3noC_[0PZU2
-Abehavioral
+Z11 o-explicit -93 -O0
+Z12 tExplicit 1
+Astructure
 R2
 R3
 R4
+R5
+R6
+R7
+Z13 DEx4 work 4 mips 0 22 E2l5f[@D=_ib37PX>L^@d3
+l50
+L47
+Z14 VUUMR`L7;TY=0JbiZPkhEm2
+Z15 !s100 N_o?TEWG[f93G1M^Tda^j3
+R10
+31
+Z16 Mx6 4 ieee 14 std_logic_1164
+Z17 Mx5 7 simprim 11 vcomponents
+Z18 Mx4 9 vital2000 12 vital_timing
+Z19 Mx3 7 simprim 8 vpackage
+Z20 Mx2 9 vital2000 16 vital_primitives
+Z21 Mx1 3 std 6 textio
+R11
+R12
+Abehavioral
+Z22 DPx6 unisim 11 vcomponents 0 22 6Bno5d?=9BlFAj[lAHJHA1
+Z23 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R7
 DEx4 work 4 mips 0 22 0@T;8RE0GD_jbGb[74JGB0
 l61
 L32
 Va6]eKl7k8FUAh3g<N8XM50
-!s100 0PF<K>K2o^Ji_fe<c4YJA0
-R7
+R10
 31
-Z10 Mx3 4 ieee 14 std_logic_1164
-Mx2 4 ieee 11 numeric_std
-Z11 Mx1 6 unisim 11 vcomponents
-R8
-R9
+Z24 Mx3 4 ieee 14 std_logic_1164
+Z25 Mx2 4 ieee 11 numeric_std
+Mx1 6 unisim 11 vcomponents
+R11
+R12
+Fmips.vhf
+w1490689460
+8mips.vhf
+!s100 0PF<K>K2o^Ji_fe<c4YJA0
 Emux2v5
-Z12 w1490689118
-Z13 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
-Z14 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-R4
-Z15 8MUX2v5.vhd
-Z16 FMUX2v5.vhd
+Z26 w1490689118
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z28 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R7
+Z29 8MUX2v5.vhd
+Z30 FMUX2v5.vhd
 l0
 L30
 V[bP3L87Z:RUiO>>W2HnRo3
-R7
+R10
 31
-R8
-R9
+R11
+R12
 !s100 XhzAPMcLcN;EM44B0mkGi1
 Abehavioral
-R13
-R14
-R4
+R27
+R28
+R7
 DEx4 work 6 mux2v5 0 22 [bP3L87Z:RUiO>>W2HnRo3
 l39
 L37
 VL>S5E5>LlXNEed8TkYR0G3
-R7
-31
 R10
-Z17 Mx2 4 ieee 15 std_logic_arith
-Z18 Mx1 4 ieee 18 std_logic_unsigned
-R8
-R9
+31
+R24
+Z31 Mx2 4 ieee 15 std_logic_arith
+Z32 Mx1 4 ieee 18 std_logic_unsigned
+R11
+R12
 !s100 z183]c`nnYG<oM9QEE`DE0
 Epc_update
-Z19 w1490687088
-R13
-R14
-R4
-Z20 8PC_Update.vhd
-Z21 FPC_Update.vhd
+Z33 w1490687088
+R27
+R28
+R7
+Z34 8PC_Update.vhd
+Z35 FPC_Update.vhd
 l0
 L30
 V30L31fGIeg^fm==mJ2Ikm0
-R7
+R10
 31
-R8
-R9
+R11
+R12
 !s100 5m2OfmPa=<9;21f09kQA`0
 Abehavioral
-R13
-R14
-R4
+R27
+R28
+R7
 DEx4 work 9 pc_update 0 22 30L31fGIeg^fm==mJ2Ikm0
 l37
 L35
 V:g<F>fXYfEn9Yl=ebi?V42
-R7
-31
 R10
-R17
-R18
-R8
-R9
+31
+R24
+R31
+R32
+R11
+R12
 !s100 ez]1?:KPkng;PT2Qo7=I22
 Eprogram_counter
-Z22 w1490686194
-R13
-R14
-R4
-Z23 8Program_Counter.vhd
-Z24 FProgram_Counter.vhd
+Z36 w1490686194
+R27
+R28
+R7
+Z37 8Program_Counter.vhd
+Z38 FProgram_Counter.vhd
 l0
 L30
 VNORF4S]zA9f0RgE=48eM;1
-R7
+R10
 31
-R8
-R9
+R11
+R12
 !s100 CTU0TdAe]`C9I[CzJkfYk1
 Abehavioral
-R13
-R14
-R4
+R27
+R28
+R7
 DEx4 work 15 program_counter 0 22 NORF4S]zA9f0RgE=48eM;1
 l38
 L36
 VVA=4?KhedC]6kR:^:N_U=0
-R7
-31
 R10
-R17
-R18
-R8
-R9
+31
+R24
+R31
+R32
+R11
+R12
 !s100 BE=@fn:VNQF5Z=ZcF>8eU2
 Erom_32x32
-Z25 w1490690260
-R13
-R14
-R4
-Z26 8ROM_32x32.vhd
-Z27 FROM_32x32.vhd
+Z39 w1490690260
+R27
+R28
+R7
+Z40 8ROM_32x32.vhd
+Z41 FROM_32x32.vhd
 l0
 L30
 VzNRO`VNmzZzI>PW4@LbRk2
-R7
+R10
 31
-R8
-R9
+R11
+R12
 !s100 WgYZG0Z1]`gcZ3lDJI0542
 Abehavioral
-R13
-R14
-R4
+R27
+R28
+R7
 DEx4 work 9 rom_32x32 0 22 zNRO`VNmzZzI>PW4@LbRk2
 l73
 L35
 VB^50N=ChM1VV3E5E3PF[93
-R7
-31
 R10
-R17
-R18
-R8
-R9
+31
+R24
+R31
+R32
+R11
+R12
 !s100 `e7B58aANV`XMMUbYi6U22
 Ewavemips
-Z28 w1490689602
-R13
-R14
-Z29 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
-Z30 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
-R3
-R4
+Z42 w1490689602
+R27
+R28
 R2
-Z31 8WaveMips.vhw
-Z32 FWaveMips.vhw
+Z43 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R23
+R7
+R22
+Z44 8WaveMips.vhw
+Z45 FWaveMips.vhw
 l0
 L30
 VLT`hXBTidJ9TeLd2jSZE;3
-!s100 QYV4nchUHgm_anR2=MRRC2
-R7
+R10
 31
-R8
-R9
+R11
+R12
+!s100 QYV4nchUHgm_anR2=MRRC2
 Atestbench_arch
-R13
-R14
-R29
-R30
-R3
-R4
+R27
+R28
 R2
-Z33 DEx4 work 8 wavemips 0 22 LT`hXBTidJ9TeLd2jSZE;3
+R43
+R23
+R7
+R22
+DEx4 work 8 wavemips 0 22 LT`hXBTidJ9TeLd2jSZE;3
 l48
 L33
-Z34 Vm<M_YVDV@AJ8`lfZ@B>5m3
-Z35 !s100 a;GQUCK=Y1zY17<ZBH<F;3
-R7
+Vm<M_YVDV@AJ8`lfZ@B>5m3
+!s100 a;GQUCK=Y1zY17<ZBH<F;3
+R10
 31
-Z36 Mx7 6 unisim 11 vcomponents
-Z37 Mx6 4 ieee 14 std_logic_1164
-Z38 Mx5 4 ieee 11 numeric_std
-Z39 Mx4 4 ieee 16 std_logic_textio
-Z40 Mx3 3 std 6 textio
-R17
-R18
-R8
-R9
+Mx7 6 unisim 11 vcomponents
+R16
+Mx5 4 ieee 11 numeric_std
+Mx4 4 ieee 16 std_logic_textio
+Mx3 3 std 6 textio
+R31
+R32
+R11
+R12
